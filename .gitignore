@@ -1,4 +1,6 @@
 obj_det/
-Tensorflow/
+Tensorflow/models/
+Tensorflow/labelImg/
+Tensorflow/protoc/
+Tensorflow/workspace/
 .ipynb_checkpoints
-models/
