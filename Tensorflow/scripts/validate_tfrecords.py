@@ -68,8 +68,4 @@ def validate_tfrecord_crc(filenames):
     print(f'Total records with bad length CRC: {total_bad_len_crc}')
     print(f'Total records with bad data CRC: {total_bad_data_crc}')
 
-# Example usage
-filenames = ["path/to/your/tfrecord1.record", "path/to/your/tfrecord2.record"]
-validate_tfrecords(filenames)
-validate_tfrecord_crc(filenames)
 
