@@ -3,26 +3,26 @@
 2. **Installing venv:**
 *Linux*
 <pre>
-  python3 -m venv .obj_det
-  source .obj_det/bin/activate
+python3 -m venv .obj_det
+source .obj_det/bin/activate
 </pre> 
 *Windows*
 <pre>
-  python -m venv .obj_det
-  .\.obj_det\Scripts\activate
+python -m venv .obj_det
+.\.obj_det\Scripts\activate
 </pre> 
 3. **Install dependencies and add virtual environment to the Python Kernel**
 *Linux*
 <pre>
-  python3 -m pip install --upgrade pip
-  pip install ipykernel
-  python3 -m ipykernel install --user --name=obj_det
+python3 -m pip install --upgrade pip
+pip install ipykernel
+python3 -m ipykernel install --user --name=obj_det
 </pre>
 *Windows*
 <pre>
-  python -m pip install --upgrade pip
-  pip install ipykernel
-  python -m ipykernel install --user --name=obj_det
+python -m pip install --upgrade pip
+pip install ipykernel
+python -m ipykernel install --user --name=obj_det
 </pre> 
 4. **Install cuda drivers**
 5. **Install protobuf**
